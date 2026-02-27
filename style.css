@@ -105,6 +105,15 @@
         width: 1px;
         height: 1px;
         overflow: hidden;
+
+        &.skip:focus {
+            left: 0;
+            width: auto;
+            height: auto;
+            background-color: rgb(255, 255, 255);
+            padding: 10px;
+            border: 1px solid;
+        }
     }
 
 }
